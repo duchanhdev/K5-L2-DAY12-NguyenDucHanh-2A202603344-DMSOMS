@@ -1,0 +1,5 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S02_ir,IR_sim,"Sau khi sửa, infant_seat ghế rear_right có facing=rear trên cả IR-sim và RGB. Hướng nôi của khung này vẫn đọc được bằng hình dạng.",facing,"Giữ rear trên cả hai ảnh."
+D02,real_IR,"Dây an toàn trên khung này ghi unknown, trong khi D01, D03, D04, D05 ghi worn_correct.",seatbelt,"Giữ unknown. Không suy dây từ các khung D khác."
+D05,real_IR,"Cả hai mắt và kính đều ghi unknown trên NIR thật.",eye_left,"Giữ unknown khi không tách được khe mắt hoặc vùng kính. Không ghi closed nếu không thấy mí khép."
+D06,real_IR,"glasses=clear nhưng cả hai mắt vẫn unknown.",eye_right,"Thấy gọng kính trong không đủ để kết luận mí mắt. Mắt không rõ thì unknown."
