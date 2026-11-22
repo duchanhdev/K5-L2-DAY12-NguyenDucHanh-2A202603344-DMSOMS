@@ -1,0 +1,94 @@
+﻿image,label,field,issue,Hạnh,Oanh,verdict,guideline_rule,action
+D01.png,frame_meta,light,khác giá trị,unknown,night,Hạnh,4.4-1,G12/driver/D01.png: khoang NIR không đủ để kết luận đêm. GUIDE 4.4-1 không thấy thì unknown.
+D01.png,child_seat,box,chỉ có ở Oanh (hoặc IoU thấp),,,Hạnh,4.2,G12/driver/D01.png: ảnh tài xế. GUIDE 4.2 DMS không gán ghế trẻ em dù ghế sau có vật.
+D02.png,frame_meta,light,khác giá trị,unknown,night,Hạnh,4.4-1,"G12/driver/D02.png: khoang NIR không đủ để kết luận đêm. Cửa sổ có vùng sáng trắng, night không đúng. GUIDE 4.4-1 không thấy thì unknown."
+D02.png,face,eye_left,khác giá trị (IoU=0.90),closed,open,Hạnh,4.5,G12/driver/D02.png: thấy hai mí khép. GUIDE 4.5 closed. Oanh ghi open là sai.
+D02.png,face,eye_right,khác giá trị (IoU=0.90),closed,open,Hạnh,4.5,G12/driver/D02.png: thấy hai mí khép. GUIDE 4.5 closed. Oanh ghi open là sai.
+D02.png,face,gaze_zone,khác giá trị (IoU=0.90),other,center,Hạnh,4.5,"G12/driver/D02.png: nhìn xuống kính đang cầm, không nhìn bảng giữa. GUIDE 4.5 center không áp dụng. Giữ other."
+D02.png,person,seatbelt,khác giá trị (IoU=0.91),unknown,worn_correct,Oanh,4.7,G12/driver/D02.png: dải chéo qua ngực thấy rõ. GUIDE 4.7 worn_correct. Đổi unknown thành worn_correct. Đã sửa trong export_final_v2.
+D03.png,frame_meta,light,khác giá trị,unknown,night,Hạnh,4.4-1,G12/driver/D03.png: khoang NIR không đủ để kết luận đêm. GUIDE 4.4-1 không thấy thì unknown.
+D03.png,face,eye_right,khác giá trị (IoU=0.77),unknown,open,Hạnh,4.5,"G12/driver/D03.png: mặt nghiêng, mắt phải khuất sau mũi, không thấy khe mắt. GUIDE 4.5 unknown."
+D03.png,face,gaze_zone,khác giá trị (IoU=0.77),lap,other,Oanh,4.5,"G12/driver/D03.png: nhìn điện thoại cầm lên, không nhìn đùi. GUIDE 4.5 lap chỉ khi nhìn xuống đùi. Đổi thành other. Đã sửa trong export_final_v2."
+D03.png,face13,right_eye_outer.outside,khác cờ,1,0,Oanh,4.6,"G12/driver/D03.png: mắt phải nằm trên mặt, bị mũi che, không ra ngoài khung. GUIDE 4.6 tắt outside, bật occluded. Đã sửa trong export_final_v2."
+D03.png,face13,right_eye_upper.outside,khác cờ,1,0,Oanh,4.6,"G12/driver/D03.png: mắt phải nằm trên mặt, bị mũi che, không ra ngoài khung. GUIDE 4.6 tắt outside, bật occluded. Đã sửa trong export_final_v2."
+D03.png,face13,right_eye_lower.outside,khác cờ,1,0,Oanh,4.6,"G12/driver/D03.png: mắt phải nằm trên mặt, bị mũi che, không ra ngoài khung. GUIDE 4.6 tắt outside, bật occluded. Đã sửa trong export_final_v2."
+D03.png,face13,mouth_right.occluded,khác cờ,1,0,Hạnh,4.6,G12/driver/D03.png: khóe miệng phía xa bị má che. GUIDE 4.6 giữ occluded.
+D04.png,frame_meta,light,khác giá trị,unknown,night,Hạnh,4.4-1,"G12/driver/D04.png: khoang NIR không đủ để kết luận đêm. Cửa sổ có vùng sáng trắng, night không đúng. GUIDE 4.4-1 không thấy thì unknown."
+D04.png,face,gaze_zone,khác giá trị (IoU=0.87),road,mirror_c,Hạnh,4.5,"G12/driver/D04.png: mặt hướng về kính chắn gió, không hướng gương giữa. GUIDE 4.5 giữ road."
+D05.png,frame_meta,light,khác giá trị,unknown,night,Hạnh,4.4-1,G12/driver/D05.png: khoang NIR không đủ để kết luận đêm. GUIDE 4.4-1 không thấy thì unknown.
+D05.png,face,eye_left,khác giá trị (IoU=0.74),unknown,closed,Hạnh,4.5,"G12/driver/D05.png: tròng kính tối, không thấy mí. GUIDE 4.5 unknown. Không ghi closed."
+D05.png,face,glasses,khác giá trị (IoU=0.74),unknown,sun,Oanh,4.5,G12/driver/D05.png: thấy gọng kính tối trên mặt. GUIDE 4.5 sun. Đổi unknown thành sun. Đã sửa trong export_final_v2.
+D05.png,face13,left_eye_inner.outside,khác cờ,1,0,Oanh,4.6,"G12/driver/D05.png: điểm vẫn trên mặt, bị kính che. GUIDE 4.6 dùng occluded, tắt outside. Đã sửa trong export_final_v2."
+D05.png,face13,right_eye_outer.outside,khác cờ,1,0,Oanh,4.6,"G12/driver/D05.png: điểm vẫn trên mặt, bị kính che. GUIDE 4.6 dùng occluded, tắt outside. Đã sửa trong export_final_v2."
+D05.png,face13,nose_tip.outside,khác cờ,0,1,Hạnh,4.6,G12/driver/D05.png: chóp mũi thấy trong khung. GUIDE 4.6 không đặt outside.
+D05.png,face13,mouth_right.outside,khác cờ,1,0,Oanh,4.6,"G12/driver/D05.png: điểm vẫn trên mặt, bị kính che. GUIDE 4.6 dùng occluded, tắt outside. Đã sửa trong export_final_v2."
+D06.png,frame_meta,light,khác giá trị,unknown,night,Hạnh,4.4-1,G12/driver/D06.png: khoang NIR không đủ để kết luận đêm. GUIDE 4.4-1 không thấy thì unknown.
+D06.png,face,eye_left,khác giá trị (IoU=0.72),unknown,open,Hạnh,4.5,"G12/driver/D06.png: chai và đốm phản xạ che mắt, không thấy mí. GUIDE 4.5 unknown."
+D06.png,face,eye_right,khác giá trị (IoU=0.72),unknown,open,Hạnh,4.5,"G12/driver/D06.png: chai và đốm phản xạ che mắt, không thấy mí. GUIDE 4.5 unknown."
+D06.png,person,seatbelt,khác giá trị (IoU=0.97),unknown,worn_correct,Oanh,4.7,G12/driver/D06.png: dải tối chéo qua áo trắng. GUIDE 4.7 worn_correct. Đã sửa trong export_final_v2.
+D06.png,face13,left_eye_outer.occluded,khác cờ,1,0,Hạnh,4.6,G12/driver/D06.png: mắt bị kính phản xạ hoặc chai che. GUIDE 4.6 giữ occluded.
+D06.png,face13,left_eye_inner.occluded,khác cờ,1,0,Hạnh,4.6,G12/driver/D06.png: mắt bị kính phản xạ hoặc chai che. GUIDE 4.6 giữ occluded.
+D06.png,face13,left_eye_upper.occluded,khác cờ,1,0,Hạnh,4.6,G12/driver/D06.png: mắt bị kính phản xạ hoặc chai che. GUIDE 4.6 giữ occluded.
+D06.png,face13,left_eye_lower.occluded,khác cờ,1,0,Hạnh,4.6,G12/driver/D06.png: mắt bị kính phản xạ hoặc chai che. GUIDE 4.6 giữ occluded.
+D06.png,face13,right_eye_outer.occluded,khác cờ,1,0,Hạnh,4.6,G12/driver/D06.png: mắt bị kính phản xạ hoặc chai che. GUIDE 4.6 giữ occluded.
+D06.png,face13,right_eye_inner.occluded,khác cờ,1,0,Hạnh,4.6,G12/driver/D06.png: mắt bị kính phản xạ hoặc chai che. GUIDE 4.6 giữ occluded.
+D06.png,face13,right_eye_upper.occluded,khác cờ,1,0,Hạnh,4.6,G12/driver/D06.png: mắt bị kính phản xạ hoặc chai che. GUIDE 4.6 giữ occluded.
+D06.png,face13,right_eye_lower.occluded,khác cờ,1,0,Hạnh,4.6,G12/driver/D06.png: mắt bị kính phản xạ hoặc chai che. GUIDE 4.6 giữ occluded.
+D06.png,face13,mouth_left.outside,khác cờ,1,0,chưa xác định,4.6,"Cả hai cùng sai về cờ miệng/môi trên D06. Coi như chưa xác định, không sửa trong export_final_v2."
+D06.png,face13,mouth_right.outside,khác cờ,1,0,chưa xác định,4.6,"Cả hai cùng sai về cờ miệng/môi trên D06. Coi như chưa xác định, không sửa trong export_final_v2."
+D06.png,face13,lip_upper.outside,khác cờ,1,0,chưa xác định,4.6,"Cả hai cùng sai về cờ miệng/môi trên D06. Coi như chưa xác định, không sửa trong export_final_v2."
+D06.png,face13,lip_lower.outside,khác cờ,1,0,chưa xác định,4.6,"Cả hai cùng sai về cờ miệng/môi trên D06. Coi như chưa xác định, không sửa trong export_final_v2."
+S01_ir.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S01_ir.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S01_ir.png,person,box,chỉ có ở Hạnh (hoặc IoU thấp),IoU=0.00,,Hạnh,4.1,G12/oms/S01_ir.png: trẻ em ngồi ghế bên phải ảnh (rear_left). Coach: trẻ em vẫn là person. Giữ box.
+S01_ir.png,face,box,chỉ có ở Oanh (hoặc IoU thấp),,,Oanh,4.1,"G12/oms/S01_ir.png: thấy mặt người lớn. GUIDE 4.1 OMS người lớn có box face, không có face13. Thêm box face. Đã sửa trong export_final_v2."
+S01_ir.png,object,box,chỉ có ở Oanh (hoặc IoU thấp),,,Hạnh,4.8,G12/oms/S01_ir.png: không thấy cốc. GUIDE 4.8 không thêm object. Bỏ box cup của Oanh.
+S01_ir.png,hand,box,chỉ có ở Oanh (hoặc IoU thấp),,,Hạnh,4.2,G12/oms/S01_ir.png: OMS không gán tay. GUIDE 4.2 hand chỉ dùng ở DMS.
+S01_ir.png,hand,box,chỉ có ở Oanh (hoặc IoU thấp),,,Hạnh,4.2,G12/oms/S01_ir.png: OMS không gán tay. GUIDE 4.2 hand chỉ dùng ở DMS.
+S01_ir.png,face13,count,khác số skeleton,0,1,Hạnh,4.6,G12/oms/S01_ir.png: GUIDE 4.6 chỉ vẽ face13 trên ảnh D. Không lấy skeleton của Oanh.
+S01_rgb.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S01_rgb.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S01_rgb.png,person,seat,khác giá trị (IoU=0.98),rear_right,driver,Hạnh,4.4-3,"G12/oms/S01_rgb.png: người lớn ngồi bên trái ảnh, camera nhìn về sau nên là rear_right. GUIDE 4.4-3. Oanh ghi driver là sai."
+S01_rgb.png,person,box,chỉ có ở Hạnh (hoặc IoU thấp),IoU=0.00,,Hạnh,4.1,G12/oms/S01_rgb.png: trẻ em ngồi ghế bên phải ảnh (rear_left). Coach: trẻ em vẫn là person. Giữ box.
+S01_rgb.png,object,box,chỉ có ở Oanh (hoặc IoU thấp),,,Hạnh,4.8,G12/oms/S01_rgb.png: không thấy cốc. GUIDE 4.8 không thêm object. Bỏ box cup của Oanh.
+S01_rgb.png,hand,box,chỉ có ở Oanh (hoặc IoU thấp),,,Hạnh,4.2,G12/oms/S01_rgb.png: OMS không gán tay. GUIDE 4.2 hand chỉ dùng ở DMS.
+S01_rgb.png,hand,box,chỉ có ở Oanh (hoặc IoU thấp),,,Hạnh,4.2,G12/oms/S01_rgb.png: OMS không gán tay. GUIDE 4.2 hand chỉ dùng ở DMS.
+S01_rgb.png,face,box,chỉ có ở Oanh (hoặc IoU thấp),,,Oanh,4.1,"G12/oms/S01_rgb.png: thấy mặt người lớn. GUIDE 4.1 OMS người lớn có box face, không có face13. Thêm box face. Đã sửa trong export_final_v2."
+S01_rgb.png,face13,count,khác số skeleton,0,1,Hạnh,4.6,G12/oms/S01_rgb.png: GUIDE 4.6 chỉ vẽ face13 trên ảnh D. Không lấy skeleton của Oanh.
+S02_ir.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S02_ir.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S02_rgb.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S02_rgb.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S03_ir.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S03_ir.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S03_ir.png,person,box,chỉ có ở Hạnh (hoặc IoU thấp),IoU=0.00,,Hạnh,4.1,G12/oms/S03_ir.png: trẻ bên trái ảnh và em bé trong nôi bên phải ảnh đều là người. Coach giữ box person.
+S03_ir.png,person,box,chỉ có ở Hạnh (hoặc IoU thấp),IoU=0.00,,Hạnh,4.1,G12/oms/S03_ir.png: trẻ bên trái ảnh và em bé trong nôi bên phải ảnh đều là người. Coach giữ box person.
+S03_ir.png,child_seat,box,chỉ có ở Hạnh (hoặc IoU thấp),IoU=0.00,,Oanh,4.8,"G12/oms/S03_ir.png: box không khớp là ghế bên phải ảnh, đó là nôi em bé rear_left. GUIDE 4.8 đổi child_seat thành infant_seat. Đã sửa trong export_final_v2."
+S03_ir.png,object,box,chỉ có ở Oanh (hoặc IoU thấp),,,Oanh,4.8,"G12/oms/S03_ir.png: hộp carton giữa ghế sau. GUIDE 4.8 object type=box, seat=rear_middle. Đã sửa trong export_final_v2."
+S03_ir.png,infant_seat,box,chỉ có ở Oanh (hoặc IoU thấp),,,Oanh,4.8,"G12/oms/S03_ir.png: nôi em bé bên phải ảnh, quay đầu về sau. GUIDE 4.8 infant_seat facing=rear, seat=rear_left. Đã sửa trong export_final_v2."
+S03_rgb.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S03_rgb.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S03_rgb.png,person,box,chỉ có ở Hạnh (hoặc IoU thấp),IoU=0.00,,Hạnh,4.1,G12/oms/S03_rgb.png: trẻ bên trái ảnh và em bé trong nôi bên phải ảnh đều là người. Coach giữ box person.
+S03_rgb.png,child_seat,box,chỉ có ở Hạnh (hoặc IoU thấp),IoU=0.00,,Oanh,4.8,"G12/oms/S03_rgb.png: box không khớp là ghế bên phải ảnh, đó là nôi em bé rear_left. GUIDE 4.8 đổi child_seat thành infant_seat. Đã sửa trong export_final_v2."
+S03_rgb.png,person,box,chỉ có ở Hạnh (hoặc IoU thấp),IoU=0.00,,Hạnh,4.1,G12/oms/S03_rgb.png: trẻ bên trái ảnh và em bé trong nôi bên phải ảnh đều là người. Coach giữ box person.
+S03_rgb.png,infant_seat,box,chỉ có ở Oanh (hoặc IoU thấp),,,Oanh,4.8,"G12/oms/S03_rgb.png: nôi em bé bên phải ảnh, quay đầu về sau. GUIDE 4.8 infant_seat facing=rear, seat=rear_left. Đã sửa trong export_final_v2."
+S03_rgb.png,object,box,chỉ có ở Oanh (hoặc IoU thấp),,,Oanh,4.8,"G12/oms/S03_rgb.png: hộp carton giữa ghế sau. GUIDE 4.8 object type=box, seat=rear_middle. Đã sửa trong export_final_v2."
+S04_ir.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S04_ir.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S04_ir.png,child_seat,occupied,khác giá trị (IoU=0.93),no,unknown,Hạnh,4.8,"G12/oms/S04_rgb.png: ghế xanh bên phải ảnh trống. GUIDE 4.8 occupied=no, không unknown."
+S04_ir.png,child_seat,seat,khác giá trị (IoU=0.93),rear_left,driver,Hạnh,4.4-3,G12/oms/S04_rgb.png: ghế xanh bên phải ảnh là rear_left. GUIDE 4.4-3. Oanh ghi driver là sai.
+S04_rgb.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S04_rgb.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S05_ir.png,frame_meta,light,khác giá trị,unknown,night,Hạnh,3,"G12/oms/S05_ir.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Cửa sổ trông như đêm, nhưng ảnh dựng vẫn không ghi night. Không lấy day/night của Oanh."
+S05_rgb.png,frame_meta,light,khác giá trị,unknown,night,Hạnh,3,"G12/oms/S05_rgb.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Cửa sổ trông như đêm, nhưng ảnh dựng vẫn không ghi night. Không lấy day/night của Oanh."
+S06_ir.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S06_ir.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S06_rgb.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S06_rgb.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S07_ir.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S07_ir.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S07_ir.png,person,box,chỉ có ở Hạnh (hoặc IoU thấp),IoU=0.00,,Hạnh,4.1,G12/oms/S07_ir.png: trẻ em trong ghế bên phải ảnh (rear_left). Coach giữ box person. Oanh thiếu box này.
+S07_ir.png,face,box,chỉ có ở Oanh (hoặc IoU thấp),,,Oanh,4.1,"G12/oms/S07_ir.png: thấy mặt người lớn. GUIDE 4.1 OMS người lớn có box face, không có face13. Thêm box face. Đã sửa trong export_final_v2."
+S07_ir.png,hand,box,chỉ có ở Oanh (hoặc IoU thấp),,,Hạnh,4.2,G12/oms/S07_ir.png: OMS không gán tay. GUIDE 4.2 hand chỉ dùng ở DMS.
+S07_ir.png,face13,count,khác số skeleton,0,1,Hạnh,4.6,G12/oms/S07_ir.png: GUIDE 4.6 chỉ vẽ face13 trên ảnh D. Không lấy skeleton của Oanh.
+S07_rgb.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S07_rgb.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S07_rgb.png,person,box,chỉ có ở Hạnh (hoặc IoU thấp),IoU=0.00,,Hạnh,4.1,G12/oms/S07_rgb.png: trẻ em trong ghế bên phải ảnh (rear_left). Coach giữ box person. Oanh thiếu box này.
+S07_rgb.png,face,box,chỉ có ở Oanh (hoặc IoU thấp),,,Oanh,4.1,"G12/oms/S07_rgb.png: thấy mặt người lớn. GUIDE 4.1 OMS người lớn có box face, không có face13. Thêm box face. Đã sửa trong export_final_v2."
+S07_rgb.png,face13,count,khác số skeleton,0,1,Hạnh,4.6,G12/oms/S07_rgb.png: GUIDE 4.6 chỉ vẽ face13 trên ảnh D. Không lấy skeleton của Oanh.
+S08_ir.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S08_ir.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S08_ir.png,face,box,chỉ có ở Oanh (hoặc IoU thấp),,,Oanh,4.1,"G12/oms/S08_ir.png: thấy mặt người lớn. GUIDE 4.1 OMS người lớn có box face, không có face13. Thêm box face. Đã sửa trong export_final_v2."
+S08_ir.png,hand,box,chỉ có ở Oanh (hoặc IoU thấp),,,Hạnh,4.2,G12/oms/S08_ir.png: OMS không gán tay. GUIDE 4.2 hand chỉ dùng ở DMS.
+S08_ir.png,face13,count,khác số skeleton,0,1,Hạnh,4.6,G12/oms/S08_ir.png: GUIDE 4.6 chỉ vẽ face13 trên ảnh D. Không lấy skeleton của Oanh.
+S08_rgb.png,frame_meta,light,khác giá trị,unknown,day,Hạnh,3,"G12/oms/S08_rgb.png: GUIDE mục 3, ảnh SVIRO dựng máy nên light=unknown. Không lấy day/night của Oanh."
+S08_rgb.png,face,box,chỉ có ở Oanh (hoặc IoU thấp),,,Oanh,4.1,"G12/oms/S08_rgb.png: thấy mặt người lớn. GUIDE 4.1 OMS người lớn có box face, không có face13. Thêm box face. Đã sửa trong export_final_v2."
+S08_rgb.png,hand,box,chỉ có ở Oanh (hoặc IoU thấp),,,Hạnh,4.2,G12/oms/S08_rgb.png: OMS không gán tay. GUIDE 4.2 hand chỉ dùng ở DMS.
+S08_rgb.png,face13,count,khác số skeleton,0,1,Hạnh,4.6,G12/oms/S08_rgb.png: GUIDE 4.6 chỉ vẽ face13 trên ảnh D. Không lấy skeleton của Oanh.
