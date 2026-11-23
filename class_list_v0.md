@@ -29,7 +29,7 @@ Viết tiếp từ slide 54 bài giảng. Mỗi lớp trả lời: **model cần
 
 1. Câu hỏi: Trẻ em trong ghế trẻ em có cần box `face` như người lớn không?
    Khung ví dụ: G12 S01, S03, S07. Các ghế `occupied=yes` đã có `child_seat` và `person`, chưa có box `face`.
-   Bạn tạm gán thế nào và vì sao: Coach xác nhận trẻ em vẫn là người nên giữ box `person`. Box `face` cho các ghế này chưa vẽ. Tạm chưa thêm cho đến khi hỏi rõ, vì guideline gốc chỉ yêu cầu box `face` cho người lớn.
+   Bạn tạm gán thế nào và vì sao: Coach xác nhận trẻ em vẫn là người nên giữ box `person`. Box `face` cho các ghế này chưa vẽ vì mặt trẻ em nhỏ và không rõ, nên tạm chưa thêm cho đến khi hỏi rõ.
 2. Câu hỏi: Khi RGB và IR-sim cùng cảnh cho hai giá trị khác nhau của cùng một thuộc tính, lấy ảnh nào?
-   Khung ví dụ: G12 S02, `infant_seat` ghế `rear_right`: RGB ghi `facing=rear`, IR-sim ghi `facing=front`.
-   Bạn tạm gán thế nào và vì sao: Giữ mỗi ảnh một giá trị theo đúng ảnh đó, không copy từ ảnh kia. IR-sim không phải NIR thật và không có màu, nên không lấy hướng ghế của RGB để điền cho IR.
+   Khung ví dụ: G12 S02, `infant_seat` ghế `rear_right`: ban đầu RGB ghi `facing=rear`, IR-sim ghi `facing=front`.
+   Bạn tạm gán thế nào và vì sao: Sửa cho cả hai ảnh cùng `facing=rear` sau khi xem lại hình nôi trên từng ảnh. IR-sim không phải NIR thật và không có màu, nên hướng nôi vẫn phải đọc bằng hình dạng chứ không copy từ ảnh RGB.
